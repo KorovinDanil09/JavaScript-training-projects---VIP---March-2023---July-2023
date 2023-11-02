@@ -1,0 +1,36 @@
+.timerWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#timer {
+    font-size: 20px;
+    margin-top: 100px;
+    background: linear-gradient(to right, #ACB6E5, #f0f3f5);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#myButton {
+    display: none;
+}
+
+
+@media all and (max-width: 500px) {
+    #myButton {
+        display: block;
+        padding: 10px;
+        background: linear-gradient(to right, #ACB6E5, #f0f3f5);
+        border-radius: 20px;
+    }
+}

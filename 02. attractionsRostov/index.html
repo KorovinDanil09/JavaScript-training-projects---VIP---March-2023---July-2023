@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ростов-на-Дону</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Достопримечательности нашего города Ростова-на-Дону</h1>
+    </div>
+
+    <main class="container">
+        <div class="item one choose">
+            <h4>Ростовский-на-Дону Зоопарк</h4>
+            <p class="description">Ростовский зоопарк — один из крупнейших по территории зоопарков России, богатый своими традициями зоологический парк. Расположен в Ростове-на-Дону.</p>
+            <p class="address">Адрес: ул. Зоологическая, 3, Ростов-на-Дону, Ростовская обл., 344039</p>
+        </div>
+
+        <div class="item two">
+            <h4>Центральный городской парк им. А. М. Горького</h4>
+            <p class="description">Центральный городской парк им. М. Горького — центральный парк Ростова-на-Дону. Расположен в Ленинском районе города, занимает квартал между Пушкинской, Большой Садовой улицами, переулком Семашко и Будённовским проспектом. Парк основан в 1813 году и является старейшим парком Ростова-на-Дону.</p>
+            <p class="address">Адрес: Большая Садовая ул., 45, Ростов-на-Дону, Ростовская обл., 344002</p>
+        </div>
+
+        <div class="item three">
+            <h4>Парк им. Октябрьской Революции</h4>
+            <p class="description">Парк имени Октябрьской революции — один из парков Ростова-на-Дону. Находится в центре города рядом с Театральной площадью, является одним из популярных мест для отдыха.</p>
+            <p class="address">Адрес: Театральная пл., 3, Ростов-на-Дону, Ростовская обл., 344019</p>
+        </div>
+
+        <div class="item four">
+            <h4>Ботанический сад ЮФУ</h4>
+            <p class="description">Ботанический сад Южного федерального университета расположен в северо-западной части Ростова-на-Дону, в долине реки Темерник. Является первым ботаническим садом на огромной территории безлесной зоны юга России.</p>
+            <p class="address">Адрес: пер. Ботанический Спуск, 7, Ростов-на-Дону, Ростовская обл., 344041</p>
+        </div>
+
+        <div class="item five">
+            <h4>Ростовский Государственный Музыкальный Театр</h4>
+            <p class="description">Ростовский государственный музыкальный театр — музыкальный театр на Юге России. Находится в городе Ростове-на-Дону.</p>
+            <p class="address">Адрес: Большая Садовая ул., 134, Ростов-на-Дону, Ростовская обл., 344082</p>
+        </div>
+        
+        <div class="item six">
+            <h4>Большая Садовая улица</h4>
+            <p class="description">Больша́я Садо́вая у́лица — центральная улица Ростова-на-Дону, одна из старейших и красивейших улиц города, в частности, на Большой Садовой находятся такие достопримечательности как Городской дом, Музыкальный театр, Дом Черновой, ЦУМ.</p>
+            <p class="address">Протяжённость: 3,79 км</p>
+        </div>
+    </main>
+
+    <div class="header">
+        <h3>Поделитесь с нами вашими впечатлениями о нашем городе</h3>
+    </div>
+
+    <form class="formWrapper" action="https://formspree.io/f/mqkvbdjg" method="POST">
+
+        <div class="formRow">
+            <label>Your email:</label>
+            <input class="text" type="email" name="email" placeholder="Ваша электронная почта..." required="">
+        </div>
+
+        <div class="formRow">
+            <label>Your message:</label>
+            <textarea class="text" name="message" placeholder="Ваши впечатления..." required=""></textarea>
+        </div>
+
+        <div class="formRow">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

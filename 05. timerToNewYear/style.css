@@ -1,0 +1,56 @@
+body {
+    background-image: url(assets/zimnii-fon-dlya-prezentacii-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(204, 54, 54);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.timeBlock {
+    width: 200px;
+    height: 300px;
+    border: 2px solid brown;
+    margin-top: 50px;
+    background-color: #c76161;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds, .msSeconds {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.newClass {
+    font-size: 40px;
+    color: rgb(204, 54, 54);
+}
+
+.audioButton {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(149, 255, 154);
+}

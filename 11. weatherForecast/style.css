@@ -1,0 +1,85 @@
+body {
+    background-image: url(assets/pngtree-natural-sky-background-image_350642.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search {
+    background-color: rgba(189, 172, 211, 0.3);
+    border-radius: 20px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text:focus {
+    background-color: #ffffff;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+#sity {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+#todayDate {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+#temperature {
+    color: #ffffff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+}
+
+#feelsLike {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#weather {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#fluctuations {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}

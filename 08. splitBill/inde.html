@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Bill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <form>
+            <h1>Как вы хотите разделить ваш счет?</h1>
+            <span>
+                <input id="bill" type="text" placeholder="Введите ваш счет..."> ₽
+            </span>
+            <p>Количество челокек</p>
+            <span>
+                <input id="people" type="text" placeholder="Введите количество человек...">
+            </span>
+            <p>Оцените наш сервис</p>
+            <button id="btnTip">Оставить чаевые</button>
+            <select id="tip">
+                <option disabled>Выберите категорию чаевых</option>
+                <option value="0.30">Превосходно: 30%</option>
+                <option value="0.20">Отличный сервис: 20%</option>
+                <option value="0.10">Все понравилось: 10%</option>
+                <option value="0.00" selected>Без чаевых</option>
+            </select>
+            <button id="btnCalculate">Расчитать</button>
+        </form>
+        <div id="result">
+            <div id="billSplit">
+                <p>Счет</p>
+                <span id="divaderBill"></span> ₽
+                <span>На человека</span>
+            </div>
+            <div id="tipSplit">
+                <p>Чаевые</p>
+                <span id="divaderTip"></span> ₽
+                <span>На человека</span>
+            </div>
+            <div id="total">
+                <p>Всего</p>
+                <span id="divaderTotal"></span> ₽
+                <span>На человека</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>

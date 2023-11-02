@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(238, 240, 255);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    /* background-position: center; */
+    font-family: 'Fira Sans', sans-serif;
+    margin: 5px;
+    flex: 1;
+    position: relative;
+}
+
+h4 {
+    font-size: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10px;
+}
+
+.description {
+    font-size: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 130px;
+}
+
+.address {
+    font-size: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 20px;
+}
+
+.choose {
+    flex: 4;
+}
+
+.choose h4{
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.choose .description {
+    font-size: 16px;
+    transition: all 1s ease-in;
+}
+
+.choose .address {
+    font-size: 14px;
+    transition: all 1s ease-in;
+}
+
+.one {
+    background-image: url(assets/1.jpg);
+}
+
+.two {
+    background-image: url(assets/2.jpg);
+}
+
+.three {
+    background-image: url(assets/3.jpg);
+}
+
+.four {
+    background-image: url(assets/4.jpg);
+}
+
+.five {
+    background-image: url(assets/5.jpg);
+}
+
+.six {
+    background-image: url(assets/6.jpg);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.formWrapper {
+    background-color: rgb(218, 217, 217);
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formRow {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+}
+
+.formRow label {
+    flex: 1;
+}
+
+.formRow input {
+    flex: 4;
+}
+
+.formRow textarea {
+    flex: 4;
+}
+
+.formRow button {
+    width: 20%;
+    padding: 5px;
+}

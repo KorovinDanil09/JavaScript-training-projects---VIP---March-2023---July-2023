@@ -1,0 +1,43 @@
+body {
+    background-image: url(assets/pikkap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#generator {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    position: fixed;
+    margin-bottom: 300px;
+}
+
+#generator:hover {
+    background-color: rgb(247, 247, 247);
+}
+
+#text {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    display: none;
+    margin-top: 300px;
+    position: fixed;
+}

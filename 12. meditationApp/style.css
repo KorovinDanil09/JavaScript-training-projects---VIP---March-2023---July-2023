@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    margin-top: 200px;
+    padding: 25px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #ACB6E5, #678aff);
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}

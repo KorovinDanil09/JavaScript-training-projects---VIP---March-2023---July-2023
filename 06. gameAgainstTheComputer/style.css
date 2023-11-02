@@ -1,0 +1,47 @@
+body {
+    background-image: url(assets/5026563.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.playWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.itemWrapper {
+    width: 30%;
+    background-color: rgb(228, 228, 228);
+    border: 3px solid white;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#entryField {
+    font-size: 15px;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#play {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: rgb(156, 156, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}

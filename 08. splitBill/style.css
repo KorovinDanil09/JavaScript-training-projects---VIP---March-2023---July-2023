@@ -1,0 +1,72 @@
+body {
+    background-image: url(assets/15151395_5570215.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(207, 157, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #ffffff;
+    width: 600px;
+    height: 700px;
+    border-radius: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    width: 50%;
+}
+
+#btnTip {
+    background-color: rgb(245, 233, 255);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#btnCalculate {
+    background-color: rgb(245, 233, 255);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#tip {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+}
+
+#result {
+    display: flex;
+}
+
+#billSplit, #tipSplit, #total {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(217, 179, 253);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #9c1c9c;
+    font-size: 14px;
+}
